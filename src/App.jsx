@@ -27,7 +27,7 @@ import ContactUs from './pages/contactus/Contactus';
 import About from './pages/about/about';
 import Profile from './components/profile/Profile';
 import Collegelist from './pages/collegelist/Collegelist';
-import ResetPassword from './pages/resetpassword/resetPassword';
+import ResetPassword from './pages/resetpassword/ResetPassword';
 
 
 function App() {
