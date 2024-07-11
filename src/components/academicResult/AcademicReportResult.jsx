@@ -18,7 +18,7 @@ const AcademicReportResult = () => {
     const fetchData = async () => {
         try {
             setLoading(true);
-            const response = await fetch(`https://resultsbackendapi.vercel.app/api/scrape?htno=${htno}`);
+            const response = await fetch(`https://resultsbackendapi.vercel.app/api/get?htno=${htno}`);
             if (!response.ok) {
                 throw new Error('Failed to fetch data');
             }
